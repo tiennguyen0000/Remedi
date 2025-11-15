@@ -1,0 +1,14 @@
+uvicorn[standard]
+httpx
+psycopg2-binary
+boto3
+python-dotenv
+pydantic>=2.0
+fastapi>=0.100
+langchain
+langchain-core
+langchain-groq
+langgraph
+
+
+

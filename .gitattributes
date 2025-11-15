@@ -1,0 +1,30 @@
+# Git Line Ending Configuration for Cross-Platform Compatibility
+
+# Shell scripts must use LF (Unix line endings) even on Windows
+*.sh text eol=lf
+
+# Dockerfiles should use LF
+Dockerfile text eol=lf
+dockerfile text eol=lf
+
+# SQL files should use LF
+*.sql text eol=lf
+
+# Source code files use native line endings
+*.js text
+*.ts text
+*.tsx text
+*.jsx text
+*.py text
+*.yml text
+*.yaml text
+*.json text
+*.md text
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary

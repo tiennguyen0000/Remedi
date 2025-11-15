@@ -1,0 +1,193 @@
+XỬ LÝ LỖI VÀ GIẢI QUYẾT VẤN ĐỀ
+
+ĐĂNG NHẬP KHÔNG ĐƯỢC
+====================
+
+Lỗi: "Sai email hoặc mật khẩu"
+Giải pháp:
+1. Check email đúng chưa (lowercase, không dấu cách)
+2. Check password (phân biệt hoa thường)
+3. Thử "Quên mật khẩu"
+4. Nếu chắc chắn đúng → Liên hệ Admin
+
+Lỗi: "Email đã tồn tại"
+Giải pháp:
+1. Email này đã đăng ký rồi
+2. Thử đăng nhập thay vì đăng ký
+3. Hoặc dùng email khác
+4. Hoặc reset password
+
+Lỗi: "Token expired"
+Giải pháp:
+1. Đăng xuất
+2. Đăng nhập lại
+3. Clear cache browser (Ctrl+Shift+Delete)
+
+UPLOAD ẢNH BỊ LỖI
+=================
+
+Lỗi: "File quá lớn"
+Giải pháp:
+1. Ảnh phải < 5MB
+2. Nén ảnh bằng tool online
+3. Giảm quality khi chụp
+
+Lỗi: "File type không hỗ trợ"
+Giải pháp:
+1. Chỉ chấp nhận JPG, PNG, WEBP
+2. Convert ảnh sang format đúng
+
+Lỗi: "Upload timeout"
+Giải pháp:
+1. Check internet
+2. Upload từng ảnh một
+3. Thử lại sau
+
+GỬI HỒ SƠ BỊ LỖI
+=================
+
+Lỗi: "Thiếu thông tin"
+Giải pháp:
+1. Điền đầy đủ các field có dấu *
+2. Chọn nhà thuốc
+3. Chọn loại thuốc
+4. Nhập số lượng
+5. Chọn hạn sử dụng
+
+Lỗi: "Chưa chọn nhà thuốc"
+Giải pháp:
+1. Quay lại bước chọn nhà thuốc
+2. Click vào marker trên map
+3. Click "Chọn"
+
+TRANG KHÔNG LOAD
+================
+
+Triệu chứng: Trang trắng hoặc load mãi
+Giải pháp:
+1. Reload trang (F5)
+2. Hard reload (Ctrl+Shift+R)
+3. Clear cache
+4. Thử browser khác
+5. Check internet
+
+DỮ LIỆU KHÔNG CẬP NHẬT
+=======================
+
+Triệu chứng: Thay đổi nhưng không thấy
+Giải pháp:
+1. Reload trang
+2. Đợi vài giây
+3. Hard reload (Ctrl+Shift+R)
+4. Cache sẽ tự cập nhật sau 1 giờ
+
+BẢN ĐỒ KHÔNG HIỂN THỊ
+======================
+
+Triệu chứng: Vùng map trống
+Giải pháp:
+1. Cho phép location trong browser
+2. Reload trang
+3. Thử browser khác
+4. Check internet
+
+VỊ TRÍ KHÔNG CHÍNH XÁC
+=======================
+
+Triệu chứng: Map show sai vị trí
+Giải pháp:
+1. Bật GPS trên điện thoại
+2. Cho phép browser truy cập location
+3. Search bằng địa chỉ thay vì GPS
+
+CHATBOT KHÔNG TRẢ LỜI
+======================
+
+Triệu chứng: Gửi tin nhưng không có response
+Giải pháp:
+1. Thử lại sau vài giây
+2. Reload trang
+3. Check internet
+4. Chat với Admin thay vì bot
+
+VOUCHER KHÔNG ĐỔI ĐƯỢC
+=======================
+
+Lỗi: "Không đủ điểm"
+Giải pháp:
+- Kiếm thêm điểm bằng cách nộp thuốc
+
+Lỗi: "Hết số lượng"
+Giải pháp:
+- Chọn voucher khác
+- Đợi voucher mới
+
+Lỗi: "Đã hết hạn"
+Giải pháp:
+- Voucher này không còn dùng được
+- Chọn voucher khác
+
+LỖI CHUNG
+=========
+
+500 Internal Server Error:
+- Lỗi server
+- Thử lại sau 5 phút
+- Nếu vẫn lỗi → Báo Admin
+
+404 Not Found:
+- Link sai hoặc không tồn tại
+- Check URL
+- Về trang chủ
+
+403 Forbidden:
+- Không có quyền truy cập
+- Cần đăng nhập
+- Hoặc cần quyền Admin
+
+422 Validation Error:
+- Dữ liệu nhập sai format
+- Check lại thông tin đã nhập
+- Đọc message lỗi
+
+QUICK FIX - THỬ THEO THỨ TỰ
+============================
+1. Reload trang (F5)
+2. Clear cache (Ctrl+Shift+Delete)
+3. Check Console (F12) xem lỗi
+4. Đăng xuất → Đăng nhập lại
+5. Thử browser khác
+6. Restart browser
+7. Check internet
+8. Liên hệ support nếu vẫn lỗi
+
+LIÊN HỆ HỖ TRỢ
+===============
+
+Khi nào cần liên hệ?
+- Thử tất cả cách trên vẫn lỗi
+- Lỗi nghiêm trọng (mất dữ liệu, không đăng nhập được)
+- Phát hiện bug
+
+Cách liên hệ:
+1. Chat trong app với Admin
+2. Email: admin@remedi.vn
+3. Hotline: 1900-xxxx
+4. Facebook page
+
+Cung cấp thông tin:
+- Mô tả lỗi chi tiết
+- Bước tái hiện lỗi
+- Screenshot lỗi
+- Browser đang dùng
+- Thời gian gặp lỗi
+
+TIPS TRÁNH LỖI
+==============
+✓ Sử dụng Chrome/Edge/Firefox mới nhất
+✓ Internet ổn định
+✓ Không spam click
+✓ Đợi trang load xong mới thao tác
+✓ Đọc kỹ hướng dẫn
+✓ Điền đúng thông tin
+✓ Clear cache định kỳ

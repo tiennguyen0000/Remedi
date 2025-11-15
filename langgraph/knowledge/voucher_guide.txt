@@ -1,0 +1,133 @@
+VOUCHER - CÁCH ĐỔI VÀ SỬ DỤNG
+
+VOUCHER LÀ GÌ?
+==============
+Voucher là phiếu giảm giá dùng tại nhà thuốc liên kết.
+Đổi bằng điểm tích lũy.
+
+CÁC LOẠI VOUCHER
+================
+1. Voucher giảm tiền cố định
+   - Giảm 5k, 10k, 20k, 50k
+   - Có điều kiện đơn tối thiểu
+
+2. Voucher giảm phần trăm
+   - Giảm 5%, 10%, 15%, 20%
+   - Giảm tối đa bao nhiêu tiền
+
+3. Voucher quà tặng
+   - Tặng sản phẩm miễn phí
+   - Khi mua đơn từ X đồng
+
+4. Voucher đặc biệt
+   - Free ship
+   - BOGOF (Buy 1 Get 1)
+
+CÁCH ĐỔI VOUCHER
+================
+
+BƯỚC 1: Vào trang Voucher
+- Click menu "Voucher"
+
+BƯỚC 2: Xem voucher có sẵn
+- Hiển thị:
+  + Tên voucher
+  + Mô tả
+  + Điểm cần đổi
+  + Số lượng còn lại
+  + Ngày hết hạn
+
+BƯỚC 3: Chọn voucher
+- Click vào voucher muốn đổi
+- Kiểm tra:
+  + Có đủ điểm không?
+  + Còn số lượng không?
+  + Chưa hết hạn?
+
+BƯỚC 4: Xác nhận đổi
+- Click "Đổi voucher"
+- Xác nhận trong popup
+- Hệ thống trừ điểm tự động
+
+BƯỚC 5: Nhận QR code
+- Voucher hiển thị QR code
+- Lưu ảnh hoặc screenshot
+- Xem trong "Voucher của tôi"
+
+CÁCH SỬ DỤNG VOUCHER
+====================
+
+Bước 1: Mua hàng tại nhà thuốc
+Bước 2: Trước khi thanh toán
+Bước 3: Mở "Voucher của tôi"
+Bước 4: Chọn voucher muốn dùng
+Bước 5: Show QR code cho nhân viên
+Bước 6: Nhân viên scan QR
+Bước 7: Giảm giá được áp dụng
+Bước 8: Thanh toán số tiền còn lại
+
+ĐIỀU KIỆN SỬ DỤNG
+=================
+- Chỉ dùng tại nhà thuốc liên kết
+- Voucher phải còn hạn
+- Voucher chưa được sử dụng
+- Đơn hàng đáp ứng điều kiện tối thiểu
+- Mỗi voucher chỉ dùng 1 lần
+- Không kết hợp nhiều voucher cùng lúc
+
+THỜI HẠN VOUCHER
+================
+- Mỗi voucher có ngày hết hạn khác nhau
+- Thường: 30-90 ngày
+- Sau khi hết hạn → Không dùng được
+- Kiểm tra trước khi đổi!
+
+LƯU Ý QUAN TRỌNG
+================
+⚠️ Voucher đã đổi không hoàn lại điểm
+⚠️ Voucher đã dùng không hoàn lại
+⚠️ Check kỹ điều kiện trước khi đổi
+⚠️ Lưu QR code cẩn thận
+⚠️ Sử dụng trước khi hết hạn
+
+XEM VOUCHER CỦA TÔI
+===================
+Menu → "Voucher của tôi"
+Hiển thị:
+- Voucher chưa dùng
+- Voucher đã dùng
+- QR code
+- Ngày hết hạn
+- Trạng thái
+
+CÂU HỎI THƯỜNG GẶP
+==================
+
+Q: Cần bao nhiêu điểm để đổi voucher?
+A: Tùy voucher. Từ 20 điểm đến 500 điểm
+
+Q: Voucher dùng ở đâu?
+A: Tại các nhà thuốc liên kết
+
+Q: Đổi rồi có thể hủy không?
+A: Không. Không hoàn lại điểm
+
+Q: Voucher hết hạn thì sao?
+A: Không dùng được. Mất luôn
+
+Q: Tôi có thể tặng voucher cho người khác không?
+A: Có thể share QR code
+
+Q: Quên không dùng voucher, hết hạn rồi?
+A: Rất tiếc, voucher mất. Không hoàn điểm
+
+Q: Nhà thuốc từ chối voucher?
+A: Liên hệ Admin ngay để xử lý
+
+TIPS
+====
+✓ Đổi voucher khi cần dùng
+✓ Không đổi quá sớm (tránh hết hạn)
+✓ Check điều kiện kỹ
+✓ Screenshot QR code
+✓ Backup QR vào nhiều nơi

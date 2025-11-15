@@ -1,0 +1,87 @@
+CÁCH NỘP HỒ SƠ THUỐC
+
+BƯỚC 1: ĐĂNG NHẬP
+=================
+- Phải đăng nhập trước
+- Nếu chưa có tài khoản → Đăng ký
+
+BƯỚC 2: VÀO TRANG NỘP THUỐC
+============================
+- Click "Thu gom & Trao đổi thuốc"
+- Hoặc "Medicine Management"
+
+BƯỚC 3: CHỌN NHÀ THUỐC
+======================
+- Xem bản đồ nhà thuốc liên kết
+- Click "Vị trí của bạn" để tìm gần nhất
+- Hoặc search theo tên/địa chỉ
+- Click chọn nhà thuốc
+
+BƯỚC 4: CHỌN LOẠI THUỐC
+=======================
+- Chọn từ danh sách có sẵn
+- Ví dụ: Paracetamol 500mg
+- Nếu không có → Liên hệ Admin
+
+BƯỚC 5: CHỤP ẢNH THUỐC
+======================
+Yêu cầu:
+- Tối đa 5 ảnh
+- Dung lượng < 5MB/ảnh
+- Format: JPG, PNG, WEBP
+
+Cần chụp:
+- Mặt trước hộp (tên, hạn dùng)
+- Mặt sau (thành phần)
+- Vỉ thuốc
+- Toàn cảnh
+
+BƯỚC 6: ĐIỀN THÔNG TIN
+=======================
+Bắt buộc:
+- Số lượng (ví dụ: 20)
+- Đơn vị (viên/hộp/chai/lọ/túi)
+- Hạn sử dụng (chọn từ lịch)
+
+Tùy chọn:
+- Ghi chú thêm
+
+BƯỚC 7: GỬI HỒ SƠ
+==================
+- Click "Gửi hồ sơ"
+- Chờ xác nhận
+- Nhận thông báo khi gửi thành công
+
+SAU KHI GỬI
+===========
+- Admin sẽ xem xét hồ sơ
+- Thời gian: 24-48 giờ
+- Nhận thông báo khi được duyệt
+- Điểm sẽ tự động cộng vào tài khoản
+
+THUỐC NÀO ĐƯỢC NHẬN?
+====================
+✓ Còn hạn sử dụng
+✓ Nguyên vỏ, nguyên tem
+✓ Không bị hư hỏng
+✓ Rõ ràng, đọc được thông tin
+
+✗ Đã hết hạn > 6 tháng
+✗ Bị ẩm mốc
+✗ Mất tem, mất nhãn
+✗ Hư hỏng
+
+LƯU Ý
+======
+- Chụp ảnh rõ ràng
+- Điền đầy đủ thông tin
+- Kiểm tra hạn sử dụng
+- Một hồ sơ = một loại thuốc
+- Nếu có nhiều loại → Tạo nhiều hồ sơ
+
+LỖI THƯỜNG GẶP
+==============
+1. "Ảnh quá lớn" → Nén ảnh < 5MB
+2. "Thiếu thông tin" → Điền đủ các field bắt buộc
+3. "Nhà thuốc chưa chọn" → Phải chọn nhà thuốc trước
+4. "Upload fail" → Kiểm tra internet, thử lại

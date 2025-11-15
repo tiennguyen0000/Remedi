@@ -1,0 +1,84 @@
+HỆ THỐNG REMEDI - THU GOM VÀ TRAO ĐỔI THUỐC
+
+GIỚI THIỆU
+==========
+Remedi là hệ thống giúp người dùng nộp thuốc thừa/hết hạn để nhận điểm thưởng và đổi voucher giảm giá.
+
+MỤC ĐÍCH
+========
+- Thu gom thuốc an toàn
+- Tích lũy điểm khi nộp thuốc
+- Đổi điểm lấy voucher
+- Chuyển thuốc còn hạn đến người cần
+
+USERS
+=====
+1. USER (Người dùng)
+   - Đăng ký/đăng nhập
+   - Nộp thuốc
+   - Xem điểm
+   - Đổi voucher
+   - Chat
+
+2. CONGTACVIEN (Cộng tác viên)
+   - Tất cả quyền USER
+   - Xác nhận thu gom
+
+3. ADMIN (Quản trị viên)
+   - Duyệt/từ chối hồ sơ
+   - Quản lý voucher
+   - Quản lý user
+   - Xem thống kê
+
+TÍNH NĂNG CHÍNH
+================
+1. Nộp hồ sơ thuốc
+2. Duyệt hồ sơ (Admin)
+3. Tích điểm thưởng
+4. Đổi voucher
+5. Chat AI hỗ trợ
+6. Tìm nhà thuốc gần
+7. Forum trao đổi
+8. Thông báo real-time
+
+LUỒNG HOẠT ĐỘNG CƠ BẢN
+=======================
+User → Đăng ký → Nộp thuốc → Admin duyệt → Nhận điểm → Đổi voucher → Sử dụng
+
+CÔNG NGHỆ
+=========
+- Frontend: React + TypeScript
+- Backend: Python FastAPI
+- Database: PostgreSQL
+- Cache: Redis
+- Storage: MinIO
+- AI: LangGraph + Groq
+- Deployment: Docker
+
+ĐIỂM THƯỞNG
+===========
+- Base: 10 điểm/hồ sơ
+- Bonus: +5 điểm nếu thuốc còn hạn > 6 tháng
+- Công thức: số_lượng × điểm_đơn_vị + bonus
+- Điểm không hết hạn
+
+VOUCHER
+=======
+- Đổi điểm lấy voucher
+- Giảm giá tại nhà thuốc
+- QR code để sử dụng
+- Có thời hạn sử dụng
+
+NHÀ THUỐC LIÊN KẾT
+==================
+- Xem trên bản đồ
+- Tìm nhà thuốc gần nhất
+- Nộp thuốc tại đây
+- Sử dụng voucher tại đây
+
+CHATBOT AI
+==========
+- Hỗ trợ 24/7
+- Trả lời câu hỏi
+- Hướng dẫn sử dụng
+- Hiểu tiếng Việt tự nhiên

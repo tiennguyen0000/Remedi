@@ -1,0 +1,165 @@
+services:
+  postgres:
+    build: ./storage/postgre
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin123
+      POSTGRES_DB: medicine_recycling
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - backend
+
+  db-init:
+    build:
+      context: ./storage/postgre
+      dockerfile: Dockerfile.init
+    restart: "no"
+    depends_on:
+      - postgres
+    environment:
+      POSTGRES_HOST: postgres
+      POSTGRES_USER: admin
+      POSTGRES_DB: medicine_recycling
+      PGPASSWORD: admin123
+      FASTAPI_URL: http://fastapi:8000
+    volumes:
+      - ./storage/postgre/init/init.sql:/init.sql:ro
+      - ./storage/postgre/init/seed.sh:/seed.sh:ro
+      - certificates:/certificates
+    entrypoint: ["bash", "/seed.sh"]
+    networks:
+      - backend
+
+  minio:
+    image: minio/minio:latest
+    command: server /data
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin
+    ports:
+      - "9000:9000"
+    volumes:
+      - miniodata:/data
+    networks:
+      - backend
+
+  redis:
+    image: redis:7-alpine
+    container_name: redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - backend
+
+  langgraph:
+    build: ./langgraph
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      # Override if needed, but .env is loaded by default
+      GROQ_API_KEY: ${GROQ_API_KEY}
+      GROQ_MODEL: ${GROQ_MODEL:-llama-3.1-8b-instant}
+      POSTGRES_DSN: ${POSTGRES_DSN}
+      MINIO_ENDPOINT: ${MINIO_ENDPOINT}
+      MINIO_ACCESS_KEY: ${MINIO_ACCESS_KEY}
+      MINIO_SECRET_KEY: ${MINIO_SECRET_KEY}
+      FASTAPI_URL: ${FASTAPI_URL}
+    depends_on:
+      postgres:
+        condition: service_started
+      minio:
+        condition: service_started
+      db-init:
+        condition: service_completed_successfully
+    ports:
+      - "8001:8001"
+    networks:
+      - backend
+
+  fastapi:
+    build: ./fastapi
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      LANGGRAPH_URL: ${LANGGRAPH_URL}
+      DATABASE_URL: ${DATABASE_URL}
+      REDIS_HOST: ${REDIS_HOST}
+      REDIS_PORT: ${REDIS_PORT}
+      REDIS_TTL: ${REDIS_TTL}
+      JWT_SECRET_KEY: ${JWT_SECRET_KEY}
+    depends_on:
+      db-init:
+        condition: service_completed_successfully
+      langgraph:
+        condition: service_started
+      postgres:
+        condition: service_started
+      redis:
+        condition: service_started
+    volumes:
+      - certificates:/app/certificates:ro
+    networks:
+      - backend
+      - frontend
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build: ./frontend
+    restart: unless-stopped
+    depends_on:
+      - fastapi
+    networks:
+      - frontend
+    ports:
+      - "3000:80"
+
+  nginx:
+    build: ./nginx
+    ports:
+      - "8081:80"
+    depends_on:
+      - fastapi
+      - frontend
+    networks:
+      - frontend
+      - backend
+
+  certificate-service:
+    build: ./storage/certificate-service
+    restart: unless-stopped
+    depends_on:
+      db-init:
+        condition: service_completed_successfully
+      postgres:
+        condition: service_started
+    environment:
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: 5432
+      POSTGRES_DB: medicine_recycling
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin123
+      POLL_INTERVAL: 30
+    volumes:
+      - certificates:/app/certificates
+    networks:
+      - backend
+
+volumes:
+  pgdata:
+  miniodata:
+  redis_data:
+  certificates:
+
+networks:
+  frontend:
+  backend:

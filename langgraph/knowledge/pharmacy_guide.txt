@@ -1,0 +1,134 @@
+TÌM NHÀ THUỐC LIÊN KẾT
+
+NHÀ THUỐC LIÊN KẾT LÀ GÌ?
+=========================
+Là các nhà thuốc hợp tác với Remedi.
+Bạn có thể:
+- Nộp thuốc tại đây
+- Sử dụng voucher tại đây
+- Nhận tư vấn
+
+CÁCH TÌM NHÀ THUỐC
+==================
+
+CÁCH 1: Xem trên bản đồ
+-----------------------
+1. Vào "Thu gom & Trao đổi thuốc"
+2. Bản đồ hiển thị tất cả nhà thuốc
+3. Marker (chấm) màu xanh = nhà thuốc
+4. Click vào marker để xem thông tin
+
+CÁCH 2: Tìm gần bạn
+-------------------
+1. Click nút "Vị trí của bạn"
+2. Cho phép truy cập location
+3. Bản đồ tự động zoom đến vị trí bạn
+4. Hiển thị nhà thuốc gần nhất
+
+CÁCH 3: Tìm kiếm theo tên
+-------------------------
+1. Nhập tên nhà thuốc vào ô search
+2. Hoặc nhập địa chỉ
+3. Kết quả sẽ được lọc
+4. Click chọn
+
+THÔNG TIN NHÀ THUỐC
+===================
+Khi click vào nhà thuốc, xem được:
+- Tên nhà thuốc
+- Địa chỉ đầy đủ
+- Số điện thoại
+- Giờ mở cửa
+- Khoảng cách từ bạn
+- Button "Chọn" để nộp thuốc
+
+CHỌN NHÀ THUỐC
+==============
+1. Tìm nhà thuốc phù hợp
+2. Click marker trên map
+3. Xem thông tin
+4. Click "Chọn"
+5. Tiếp tục điền form nộp thuốc
+
+NỘP THUỐC TẠI NHÀ THUỐC
+========================
+Sau khi gửi hồ sơ online:
+1. Mang thuốc đến nhà thuốc đã chọn
+2. Gặp nhân viên
+3. Xuất trình hồ sơ (nếu cần)
+4. Nhân viên kiểm tra và thu gom
+5. Xác nhận hoàn tất
+
+SỬ DỤNG VOUCHER
+===============
+Khi có voucher:
+1. Mua thuốc tại nhà thuốc liên kết
+2. Show QR code voucher
+3. Nhân viên scan
+4. Nhận giảm giá
+5. Thanh toán
+
+ƯU ĐIỂM NHÀ THUỐC LIÊN KẾT
+===========================
+✓ Thu gom thuốc miễn phí
+✓ Được tư vấn bởi dược sĩ
+✓ An toàn, đảm bảo
+✓ Hỗ trợ nhiệt tình
+✓ Nhận voucher giảm giá
+
+LƯU Ý
+======
+- Không phải nhà thuốc nào cũng liên kết
+- Chỉ nộp tại nhà thuốc trên hệ thống
+- Check giờ mở cửa trước khi đến
+- Mang theo CMND/CCCD khi nộp
+
+LỖI THƯỜNG GẶP
+==============
+
+Lỗi: Map không hiển thị
+Giải pháp:
+- Reload trang
+- Cho phép location
+- Check internet
+- Thử browser khác
+
+Lỗi: Không thấy nhà thuốc nào
+Giải pháp:
+- Zoom out bản đồ
+- Check filter
+- Reload trang
+
+Lỗi: Vị trí không chính xác
+Giải pháp:
+- Bật GPS trên điện thoại
+- Cho phép browser truy cập location
+- Thử search bằng địa chỉ
+
+CÂU HỎI THƯỜNG GẶP
+==================
+
+Q: Có bao nhiêu nhà thuốc liên kết?
+A: Hiện có nhiều nhà thuốc. Xem trên map
+
+Q: Tôi có thể nộp ở nhà thuốc khác không?
+A: Không. Chỉ nộp tại nhà thuốc trong hệ thống
+
+Q: Nhà thuốc có nhận thuốc gì cũng được không?
+A: Tùy loại thuốc. Check với nhân viên
+
+Q: Tôi ở xa, không có nhà thuốc gần?
+A: Liên hệ Admin để mở rộng mạng lưới
+
+Q: Voucher dùng được ở nhà thuốc nào?
+A: Tất cả nhà thuốc liên kết
+
+Q: Giờ mở cửa là khi nào?
+A: Xem thông tin từng nhà thuốc trên map
+
+TIPS
+====
+✓ Gọi điện xác nhận trước khi đến
+✓ Chọn nhà thuốc gần nhất để tiện
+✓ Lưu địa chỉ nhà thuốc quen thuộc
+✓ Check giờ mở cửa

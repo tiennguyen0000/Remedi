@@ -1,0 +1,113 @@
+ĐĂNG KÝ VÀ ĐĂNG NHẬP
+
+ĐĂNG KÝ TÀI KHOẢN MỚI
+======================
+
+Bước 1: Vào trang đăng ký
+- Click "Đăng ký" trên trang chủ
+
+Bước 2: Điền thông tin
+Bắt buộc:
+- Họ tên đầy đủ
+- Email (phải duy nhất, chưa đăng ký)
+- Số điện thoại
+- Địa chỉ
+- Mật khẩu (tối thiểu 6 ký tự)
+- Xác nhận mật khẩu
+
+Bước 3: Click "Đăng ký"
+- Hệ thống kiểm tra thông tin
+- Tạo tài khoản
+- Tự động đăng nhập
+
+Bước 4: Hoàn tất
+- Chuyển đến trang Dashboard
+- Bắt đầu sử dụng
+
+YÊU CẦU MẬT KHẨU
+================
+- Tối thiểu 6 ký tự
+- Nên có chữ hoa, chữ thường
+- Nên có số
+- Nên có ký tự đặc biệt
+- Không dùng mật khẩu quá đơn giản
+
+ĐĂNG NHẬP
+=========
+
+Bước 1: Vào trang đăng nhập
+- Click "Đăng nhập"
+
+Bước 2: Nhập thông tin
+- Email (dùng khi đăng ký)
+- Password
+
+Bước 3: Click "Đăng nhập"
+- Hệ thống kiểm tra
+- Cấp token
+- Chuyển đến Dashboard
+
+QUÊN MẬT KHẨU
+=============
+Hiện tại:
+- Liên hệ Admin để reset
+- Email: admin@remedi.vn
+
+Tương lai:
+- Tính năng tự reset qua email
+
+BẢO MẬT TÀI KHOẢN
+=================
+✓ Không chia sẻ mật khẩu
+✓ Đăng xuất khi dùng máy chung
+✓ Đổi mật khẩu định kỳ
+✓ Không click link lạ
+
+ĐĂNG XUẤT
+=========
+- Click avatar/tên người dùng
+- Chọn "Đăng xuất"
+- Token bị xóa
+- Cần đăng nhập lại để sử dụng
+
+SESSION
+=======
+- Token có hiệu lực 30 phút
+- Tự động refresh khi còn hoạt động
+- Hết hạn → Tự động đăng xuất
+- Đăng nhập lại để tiếp tục
+
+LỖI THƯỜNG GẶP
+==============
+
+"Email đã tồn tại":
+- Email này đã được đăng ký
+- Thử đăng nhập
+- Hoặc dùng email khác
+
+"Sai email hoặc mật khẩu":
+- Kiểm tra lại thông tin
+- Email phải đúng (lowercase)
+- Password phân biệt hoa thường
+
+"Token expired":
+- Hết phiên đăng nhập
+- Đăng nhập lại
+
+CÂU HỎI THƯỜNG GẶP
+==================
+
+Q: Tôi có thể thay đổi email không?
+A: Liên hệ Admin để thay đổi
+
+Q: Quên mật khẩu phải làm sao?
+A: Liên hệ Admin để reset
+
+Q: Có thể dùng Facebook đăng nhập không?
+A: Hiện tại chưa. Dùng email/password
+
+Q: Mật khẩu có phải mạnh không?
+A: Nên dùng mật khẩu mạnh để bảo mật
+
+Q: Token hết hạn khi nào?
+A: 30 phút không hoạt động

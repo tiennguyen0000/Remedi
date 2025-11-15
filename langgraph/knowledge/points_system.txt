@@ -1,0 +1,87 @@
+ĐIỂM THƯỞNG VÀ CÁCH TÍCH LŨY
+
+ĐIỂM LÀ GÌ?
+============
+Điểm thưởng là phần thưởng khi bạn nộp thuốc.
+Dùng để đổi lấy voucher giảm giá.
+
+CÁCH NHẬN ĐIỂM
+==============
+1. Nộp hồ sơ thuốc
+2. Chờ Admin duyệt
+3. Hồ sơ được duyệt → Nhận điểm tự động
+4. Điểm hiển thị trong tài khoản
+
+TÍNH ĐIỂM NHƯ THẾ NÀO?
+=======================
+Công thức:
+- Base: 10 điểm/hồ sơ được duyệt
+- Bonus: +5 điểm nếu thuốc còn hạn > 6 tháng
+- Tổng = (số_lượng × điểm_đơn_vị) + bonus
+
+Ví dụ 1:
+- Nộp 20 viên Paracetamol
+- Còn hạn 1 năm
+- Điểm = 20 × 2 + 5 = 45 điểm
+
+Ví dụ 2:
+- Nộp 1 hộp kháng sinh
+- Còn hạn 3 tháng (không bonus)
+- Điểm = 1 × 10 = 10 điểm
+
+XEM ĐIỂM Ở ĐÂU?
+================
+- Dashboard (trang chủ sau khi login)
+- Profile (thông tin cá nhân)
+- Góc phải trên: hiển thị tổng điểm
+
+ĐIỂM CÓ HẾT HẠN KHÔNG?
+=======================
+KHÔNG. Điểm không bao giờ hết hạn.
+Bạn có thể giữ và sử dụng bất cứ lúc nào.
+
+SỬ DỤNG ĐIỂM
+============
+Điểm được dùng để:
+1. Đổi voucher giảm giá
+2. Tham gia sự kiện (nếu có)
+3. Nhận ưu đãi đặc biệt
+
+LƯU Ý QUAN TRỌNG
+================
+- Điểm chỉ cộng khi hồ sơ ĐƯỢC DUYỆT
+- Hồ sơ bị từ chối → KHÔNG nhận điểm
+- Không thể chuyển điểm cho người khác
+- Không thể đổi điểm ra tiền
+- Khi đã đổi voucher, điểm bị trừ và KHÔNG hoàn lại
+
+LỊCH SỬ ĐIỂM
+============
+Xem tại:
+- Trang "Lịch sử điểm thưởng"
+- Hiển thị:
+  + Ngày nhận
+  + Số điểm
+  + Lý do (nộp thuốc, sự kiện...)
+  + Trạng thái
+
+CÂU HỎI THƯỜNG GẶP
+==================
+
+Q: Tôi có bao nhiêu điểm?
+A: Xem trong Dashboard hoặc Profile
+
+Q: Tại sao điểm chưa cộng?
+A: Hồ sơ có thể chưa được duyệt. Chờ 24-48h
+
+Q: Hồ sơ bị từ chối, có được điểm không?
+A: Không. Chỉ nhận điểm khi được duyệt
+
+Q: Điểm có mất không?
+A: Không. Điểm không hết hạn, chỉ trừ khi đổi voucher
+
+Q: Nộp nhiều có được nhiều điểm hơn không?
+A: Có. Số lượng càng nhiều, điểm càng cao
+
+Q: Làm sao để có nhiều điểm?
+A: Nộp thường xuyên, nộp thuốc còn hạn lâu

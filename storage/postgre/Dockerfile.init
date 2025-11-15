@@ -1,0 +1,33 @@
+# Database initialization container
+# This container runs the seed script and exits
+FROM postgres:15
+
+# Install Python 3, pip, and required packages for certificate generation
+RUN apt-get update && \
+    apt-get install -y \
+    curl \
+    python3 \
+    python3-pip \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Python dependencies for PDF generation
+# Using --break-system-packages is safe in Docker containers
+RUN pip3 install --no-cache-dir --break-system-packages \
+    reportlab \
+    psycopg2-binary
+
+# Set working directory
+WORKDIR /app
+
+# Copy the seed script and SQL
+COPY ./init/seed.sh /seed.sh
+COPY ./init/init.sql /init.sql
+
+# Copy certificate generation scripts
+COPY ./init/generate_init_certificates.py /app/generate_init_certificates.py
+COPY ./init/certificate_generator.py /app/certificate_generator.py
+
+# Make scripts executable
+RUN chmod +x /seed.sh /app/generate_init_certificates.py
+
+# The entrypoint will be set in docker-compose.yml

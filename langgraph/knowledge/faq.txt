@@ -1,0 +1,148 @@
+FAQ - CÂU HỎI THƯỜNG GẶP
+
+VỀ HỆ THỐNG
+============
+
+Q: Hệ thống Remedi là gì?
+A: Remedi là hệ thống thu gom và trao đổi thuốc. Bạn nộp thuốc thừa/hết hạn để nhận điểm, sau đó đổi điểm lấy voucher giảm giá.
+
+Q: Có mất phí không?
+A: Hoàn toàn MIỄN PHÍ. Bạn còn được tặng điểm!
+
+Q: Ai có thể sử dụng?
+A: Tất cả mọi người đều có thể đăng ký và sử dụng.
+
+VỀ NỘP THUỐC
+============
+
+Q: Làm sao để nộp thuốc?
+A: 1) Đăng nhập → 2) Chọn "Thu gom & Trao đổi thuốc" → 3) Chọn nhà thuốc → 4) Chọn loại thuốc → 5) Chụp ảnh → 6) Điền thông tin → 7) Gửi hồ sơ
+
+Q: Thuốc nào được nhận?
+A: Thuốc còn hạn, nguyên vỏ, nguyên tem, không bị hư hỏng.
+
+Q: Thuốc hết hạn có được nhận không?
+A: Không nhận thuốc hết hạn quá 6 tháng.
+
+Q: Cần chụp ảnh gì?
+A: Chụp rõ mặt trước (tên, hạn dùng), mặt sau (thành phần), vỉ thuốc. Tối đa 5 ảnh.
+
+Q: Nộp ở đâu?
+A: Tại các nhà thuốc liên kết. Xem trên bản đồ trong app.
+
+Q: Bao lâu thì được duyệt?
+A: Thường 24-48 giờ.
+
+VỀ ĐIỂM THƯỞNG
+==============
+
+Q: Tôi có bao nhiêu điểm?
+A: Xem trong Dashboard hoặc trang Profile.
+
+Q: Làm sao để kiếm điểm?
+A: Nộp thuốc và chờ Admin duyệt hồ sơ.
+
+Q: Điểm được tính như thế nào?
+A: Base 10 điểm/hồ sơ + bonus nếu thuốc còn hạn lâu. Công thức: số_lượng × điểm_đơn_vị + bonus.
+
+Q: Điểm có hết hạn không?
+A: KHÔNG. Điểm không bao giờ hết hạn.
+
+Q: Tại sao điểm chưa cộng?
+A: Hồ sơ có thể chưa được duyệt. Chờ 24-48h.
+
+Q: Hồ sơ bị từ chối, có điểm không?
+A: Không. Chỉ nhận điểm khi hồ sơ được duyệt.
+
+VỀ VOUCHER
+==========
+
+Q: Làm sao để đổi voucher?
+A: Vào trang "Voucher" → Chọn voucher → Click "Đổi" → Xác nhận.
+
+Q: Cần bao nhiêu điểm?
+A: Tùy voucher, từ 20-500 điểm.
+
+Q: Voucher dùng ở đâu?
+A: Tại các nhà thuốc liên kết.
+
+Q: Cách sử dụng voucher?
+A: Mua hàng → Show QR code → Nhân viên scan → Nhận giảm giá.
+
+Q: Voucher có hết hạn không?
+A: Có. Thường 30-90 ngày. Check trước khi đổi!
+
+Q: Đổi rồi có hoàn lại không?
+A: KHÔNG. Không hoàn lại điểm.
+
+Q: Voucher hết hạn thì sao?
+A: Không dùng được. Mất luôn.
+
+VỀ NHÀ THUỐC
+============
+
+Q: Làm sao tìm nhà thuốc?
+A: Xem trên bản đồ trong app. Click "Vị trí của bạn" để tìm gần nhất.
+
+Q: Có bao nhiêu nhà thuốc?
+A: Nhiều nhà thuốc trên khắp khu vực. Xem trên map.
+
+Q: Tôi ở xa, không có nhà thuốc?
+A: Liên hệ Admin để mở rộng mạng lưới.
+
+VỀ CHATBOT
+==========
+
+Q: Chatbot có thể giúp gì?
+A: Trả lời câu hỏi, hướng dẫn nộp thuốc, giải thích điểm thưởng, thông tin voucher, tìm nhà thuốc.
+
+Q: Chat ở đâu?
+A: Click icon chat góc dưới phải màn hình.
+
+Q: Bot có trả lời 24/7 không?
+A: Có. Bot luôn sẵn sàng.
+
+Q: Bot không hiểu câu hỏi?
+A: Hỏi rõ ràng hơn, dùng từ đơn giản. Hoặc chat với Admin.
+
+VỀ TÀI KHOẢN
+============
+
+Q: Làm sao đăng ký?
+A: Click "Đăng ký" → Điền thông tin → Submit.
+
+Q: Quên mật khẩu?
+A: Liên hệ Admin để reset.
+
+Q: Đổi email được không?
+A: Liên hệ Admin để thay đổi.
+
+Q: Xóa tài khoản?
+A: Liên hệ Admin để xóa.
+
+VỀ BẢO MẬT
+===========
+
+Q: Thông tin có an toàn không?
+A: Có. Chúng tôi mã hóa password, dùng HTTPS, JWT authentication.
+
+Q: Ai xem được hồ sơ của tôi?
+A: Chỉ bạn và Admin/CTV (để duyệt).
+
+KHÁC
+====
+
+Q: Tôi gặp lỗi phải làm sao?
+A: Thử reload, clear cache. Không được thì liên hệ support.
+
+Q: Liên hệ Admin như thế nào?
+A: Chat trong app, email admin@remedi.vn, hoặc hotline 1900-xxxx.
+
+Q: Tôi muốn góp ý?
+A: Rất hoan nghênh! Gửi qua trang "Phản hồi" hoặc email.
+
+Q: Hệ thống có app mobile không?
+A: Hiện tại là web app. Có thể dùng trên mobile browser.
+
+Q: Tương lai có tính năng gì mới?
+A: Sẽ có nhiều tính năng mới. Follow page để cập nhật!
